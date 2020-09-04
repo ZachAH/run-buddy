@@ -4,17 +4,19 @@
     box-sizing: border-box;
 }
 
-
-body{
+    /*changes color of font and also font family in body*/
+body{ 
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
     }
 
-    header{
+    /*changes the padding and background color on the header*/
+ header{
         padding: 20px 35px;
         background-color: #39a6b2;
     }
 
+    /*changes the font to bold and the size along with the color in the h1*/
     header h1  {
         font-weight: bold;
         font-size: 36px;
@@ -22,26 +24,31 @@ body{
         margin: 0;
       }
 
+      /* changes all the decorations and color of the a elements*/
       header a {
           text-decoration: none;
           color: #fce138;
       }
 
+        /*makes the header float to the right also sets the margin*/
       header nav {
           float: right;
           margin: 7px 0;
       }
 
+      /* will have all the nave ul li elements displayed in a line*/
       header nav ul li {
           display: inline;
       }
 
+        /*sets the margins, weight and size of all the nav ul lu a elements*/
       header nav ul li a {
           margin: 0 30px;
           font-weight: lighter;
           font-size: 22px;
       }
 
+        /* changes the h1 to bold along with the color, font size and display parameters*/
       header h1 {
           font-weight: bold;
           font-size: 36px;
@@ -50,12 +57,14 @@ body{
           display: inline;
       }
 
+        /* changes the background coloer, width and padding of the footer*/
       footer {
           background: #fce138;
           width: 100%;
           padding: 40px 35px;
       }
 
+      /*changes the made with love by run buddy display, color and font size along with margins*/
       footer h2{
           display: inline;
           color: #024e76;
@@ -63,15 +72,53 @@ body{
           margin: 0;
       }
 
+        /*changes the div in footer to float right and also the spacing above and below the text and aligns it to the right*/
       footer div{
           float:right;
           line-height: 1.5;
           text-align: right;
       }
 
+      /*changes the a element color*/
       footer a {
           color: #024e76
       }
+
+        /*changes the padding of the section*/
+      section {
+          padding: 60px;
+      }
+
+        /*adds padding*/
+      section {
+          padding: 60px;
+     } 
+     
+        /*add background image only to hero class in section*/
+    .hero {
+        background-image: url("../images/hero-bg.jpg");
+        height: 600px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+     /*setting the position of the form box the text color and background color along with the border color and width*/
+     .hero-form {
+         border: 3px solid #024e76;
+         background-color: #fce138;
+         padding: 20px;
+         width: 500px;
+         color: #024e76;
+         position: absolute;
+         bottom: 120px;
+         right: 140px;
+     }
+
+         
+     
+
+
 
 
       
