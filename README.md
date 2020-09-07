@@ -11,4 +11,8 @@
 
 ## Website
 
-<p>(https://zachah.github.io/run-buddy/)<p>
+<p>https://zachah.github.io/run-buddy/<p>
+
+## Contribution
+
+<p>Made with ❤️ by Zach Howell<p>
