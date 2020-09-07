@@ -273,18 +273,15 @@ body{
 
       .contact h2 {
         color: #fce138;
+        border-bottom-color: #39a6b2;
       }
 
       .contact-info iframe {
         width: 400px;
         height: 400px;
+        float: left;
       }
 
-      .contact-info iframe {
-        width: 400px;
-        height: 400px;
-      }
-      
       .contact-info div {
         width: 410px;
         display: inline-block;
