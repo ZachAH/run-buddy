@@ -4,8 +4,10 @@
 <p> A Website that offeres fitness training services<p>
 
 ##Built With
-*Html
-*CSS
+
+<p>*Html<p>
+  
+<p>*CSS<P>
 
 ##Website
 <p>
