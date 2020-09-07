@@ -11,4 +11,4 @@
 
 ## Website
 
-<p>{Run Buddy}(https://zachah.github.io/run-buddy/)
+<p>(https://zachah.github.io/run-buddy/)<p>
