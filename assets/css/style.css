@@ -67,22 +67,25 @@ body{
         background: #fce138;
         width: 100%;
         padding: 40px 35px;
+        display: flex;
+        justify-content: space-between;
+        Flex-wrap: wrap; 
     }
 
     /*changes the made with love by run buddy display, color and font size along with margins*/
     footer h2{
-        display: inline;
-        color: #024e76;
-        font-size: 30px;
-        margin: 0;
+      color: #024e76;
+      font-size: 30px;
+      margin: 0;
     }
+        
 
       /*changes the div in footer to float right and also the spacing above and below the text and aligns it to the right*/
     footer div{
-        float:right;
-        line-height: 1.5;
-        text-align: right;
+      line-height: 1.5;
+      text-align: right;
     }
+        
 
     /*changes the a element color*/
     footer a {
@@ -102,10 +105,26 @@ body{
       /*add background image only to hero class in section*/
   .hero {
       background-image: url("../images/hero-bg.jpg");
-      height: 600px;
       background-size: cover;
       background-position: center;
-      position: relative;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;    
+    }
+      
+  .hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+  }
+
+  .hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
   }
 
    /*setting the position of the form box the text color and background color along with the border color and width*/
@@ -113,12 +132,14 @@ body{
        border: 3px solid #024e76;
        background-color: #fce138;
        padding: 20px;
-       width: 500px;
        color: #024e76;
-       position: absolute;
-       bottom: 120px;
-       right: 140px;
-   }
+       width: 40%;
+       margin: 3.5%;
+      }
+           
+
+       
+
 
    .hero-form h3 {
        font-size: 24px;
