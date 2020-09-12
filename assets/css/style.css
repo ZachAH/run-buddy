@@ -371,15 +371,23 @@ body {
      color: #fce138;
      flex: 1;
     }
-     
-     
+    
+    .trainer-1 {
+      background-image: url("/assets/images/trainer-1.jpg");
+    }
+  
+    .trainer-img{
+      width:100%;
+      min-height: 300px;
+      display: flex;
+      padding: 15px;
+      align-items:flex-end;
+    }
 
-  .trainer img {
-  padding: 25px;
-  width: 100%;
-   }
-   
-   .trainer-bio {
+
+     
+     
+  .trainer-bio {
      overflow: auto;
      line-height: 1.3;
      padding: 25px;
